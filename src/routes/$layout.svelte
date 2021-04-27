@@ -14,6 +14,10 @@
 </footer>
 
 <style>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
 	main {
 		flex: 1;
 		display: flex;
