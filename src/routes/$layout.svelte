@@ -1,9 +1,11 @@
 <script>
 	import Header from '$lib/Header/index.svelte';
+  import Nav from '$lib/nav.svelte';
 	import '../app.css';
 </script>
 
 <Header />
+<Nav />
 
 <main>
 	<slot />
@@ -14,10 +16,6 @@
 </footer>
 
 <style>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-
 	main {
 		flex: 1;
 		display: flex;
